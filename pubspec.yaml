@@ -1,0 +1,45 @@
+name: peludos
+description: "Aplicación Flutter Peludos con arquitectura Provider y Google Fonts"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+
+dependencies:
+  flutter:
+
+    sdk: flutter
+
+  provider: ^6.0.5
+  google_fonts: ^4.0.3
+  cupertino_icons: ^1.0.8
+  http: ^1.4.0
+  flutter_dotenv: ^5.2.1
+  lottie: ^2.4.0
+
+
+dev_dependencies:
+  flutter_test:
+
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - assets/images/dog.jpg
+    - assets/images/logo.jpg
+    - assets/images/placeholder.jpg
+    - assets/icons/loading.json
+    - assets/fonts/
