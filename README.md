@@ -1,16 +1,16 @@
-# peludos
+🐾 Peludos
 
-A new Flutter project.
+ Instalación rápida
 
-## Getting Started
+# 1. Clona el proyecto
+git clone https://github.com/<user>/peludos.git
+cd peludos
 
-This project is a starting point for a Flutter application.
+# 2. Descarga dependencias
+flutter pub get
 
-A few resources to get you started if this is your first Flutter project:
+# 3. Lanza en un emulador / dispositivo
+flutter run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Requiere Flutter 3.22 o superior (canal stable).
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
